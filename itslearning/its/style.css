@@ -1,0 +1,20 @@
+#text{
+  border-style: solid;
+  border-color:chartreuse;
+  animation: custom 3s infinite ;
+  position: relative;
+  width:500px;
+  height:100px;
+  background-image: url("https://emojis.slackmojis.com/emojis/images/1450694616/220/bananadance.gif?1450694616");
+  background-color:slategrey;
+  font-size: 20px;
+}
+
+
+@keyframes custom{
+  0%{background-color:darkslategray;color:aqua;background-repeat: no-repeat;}
+  25%{color:aquamarine}
+  50%{background-color:slategray;color:deepskyblue;background-repeat: repeat}
+  75%{color:aquamarine}
+  100%{background-color:darkslategray;color:aqua;background-repeat: no-repeat;}
+}
